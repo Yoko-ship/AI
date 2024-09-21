@@ -1,0 +1,82 @@
+*{
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
+
+.main-div{
+    padding: 10px;
+    margin: 10px;
+    display: flex;
+    max-height: 100%;
+}
+
+.para{
+    color: white;
+    white-space: pre-wrap;
+    font-size: 18px;
+    font-family: inherit;
+    text-shadow:  2px 4px 8px rgba(255, 255, 255, 0.4);
+    overflow: auto;
+}
+
+
+.textarea{
+    display: flex;
+    justify-content: center;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-family: inherit;
+}
+
+textarea{
+    width: 95%;
+    height: auto;
+    resize: vertical;
+    font-size: 18px;
+    overflow: hidden;
+    border-radius: 15px;
+    background-color: rgb(104, 103, 103);
+    border-color: grey;
+    outline: none;
+    color: white;
+    text-align: start;
+}
+
+
+
+
+.input-btn button{
+    padding: 20px;
+}
+
+
+.btn-image{
+    background: none;
+    border: none;
+    cursor: pointer;
+}
+.btn-image:hover{
+    transform: scale(1.1);
+}
+
+.button-visible{
+    visibility: hidden;
+}
+
+.span-warning{
+    font-size: 18px;
+    text-align: center;
+    padding: 10px;
+}
+
+@media (max-width:800px){
+    textarea{
+        width: 80%;
+        padding: 10px;
+        resize: vertical;
+    }
+}
+
